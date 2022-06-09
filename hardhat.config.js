@@ -54,8 +54,7 @@
         chainId: 97,
         timeout: 20000000,
         saveDeployments: true,
-        gas: 4000000,
-        gasPrice: 200000000000,
+        gasPrice: 20000000000,
      },
 
      matic: {

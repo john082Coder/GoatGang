@@ -11,7 +11,7 @@ module.exports = async function(deployer) {
 
     if (!configs.GoatGang) {
       await deployer.deploy(GoatGang, {
-        gas: 4000000
+        gas: 30000000
       });
     
       dataParse['GoatGang'] = GoatGang.address;
